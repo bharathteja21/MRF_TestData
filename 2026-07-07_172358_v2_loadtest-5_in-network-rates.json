@@ -1,0 +1,238 @@
+{
+  "reporting_entity_name": "HEALTHY",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "HEALTHYNEXT",
+  "plan_id_type": "ein",
+  "plan_id": "3353831499",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "MRF",
+  "issuer_name": "Healthy Coorporation",
+  "last_updated_on": "2025-10-30",
+  "version": "2.0.0",
+  "provider_references": [
+    {
+      "provider_group_id": 1,
+      "network_name": [
+        "Network B"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1875178382
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "80-9319708",
+            "business_name": "Provider Group One"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 2,
+      "network_name": [
+        "Network Plus"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1135063594
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "61-6782499",
+            "business_name": "Academic Medical Center Group"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 3,
+      "network_name": [
+        "Network Select"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1924154929
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "41-4351741",
+            "business_name": "Specialty Health Group"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 4,
+      "network_name": [
+        "Network Standard"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1436995919
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "12-9588612",
+            "business_name": "Advanced Medical Group"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 5,
+      "network_name": [
+        "Network C"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1045976299
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "25-2643529",
+            "business_name": "Statewide Provider Network"
+          }
+        }
+      ]
+    }
+  ]
+  ,"in_network":[
+    {
+      "negotiation_arrangement": "bundle",
+      "name": "Level 1 imaging 1",
+      "billing_code_type": "APC",
+      "billing_code_type_version": "2023",
+      "billing_code": "5301",
+      "description": "Level 1 diagnostic and screening radiology APC",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            4
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "fee schedule",
+              "negotiated_rate": 18430.76,
+              "expiration_date": "2027-02-16",
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "service_code": [
+                "32"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "name": "Nebulizer compressor 2",
+      "billing_code_type": "HCPCS",
+      "billing_code_type_version": "2023",
+      "billing_code": "E0570",
+      "description": "Nebulizer compressor used with aerosol generator",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            5
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "fee schedule",
+              "negotiated_rate": 9557.67,
+              "expiration_date": "2026-10-26",
+              "billing_class": "institutional",
+              "setting": "inpatient"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "bundle",
+      "name": "APS-DRG Pediatric medical 3",
+      "billing_code_type": "APS-DRG",
+      "billing_code_type_version": "2023",
+      "billing_code": "APS100",
+      "description": "All-patient severity DRG pediatric medical case",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            3
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "percentage",
+              "negotiated_rate": 21966.38,
+              "expiration_date": "2026-04-19",
+              "billing_class": "institutional",
+              "setting": "inpatient"
+            }
+          ]
+        }
+      ],
+      "severity_of_illness": "Without CC or MCC"
+    },
+    {
+      "negotiation_arrangement": "bundle",
+      "name": "Upper GI endoscopy biopsy 4",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "43239",
+      "description": "Esophagogastroduodenoscopy with biopsy single or multiple",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            2
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "per diem",
+              "negotiated_rate": 23064.87,
+              "expiration_date": "2025-10-10",
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "service_code": [
+                "51"
+              ],
+              "billing_code_modifier": [
+                "GY"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "bundle",
+      "name": "Preventive medicine new 5",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "99385",
+      "description": "Initial comprehensive preventive medicine evaluation new patient 18-39 years",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            5
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "derived",
+              "negotiated_rate": 20031.83,
+              "expiration_date": "2025-07-14",
+              "billing_class": "institutional",
+              "setting": "inpatient",
+              "billing_code_modifier": [
+                "59"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]}

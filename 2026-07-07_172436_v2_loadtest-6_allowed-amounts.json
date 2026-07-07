@@ -1,0 +1,265 @@
+{
+  "reporting_entity_name": "AMPS",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "AMPSNEXT",
+  "plan_id_type": "ein",
+  "plan_id": "7268844084",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "MRF",
+  "issuer_name": "karthic",
+  "last_updated_on": "2026-07-07",
+  "version": "2.0.0"
+  ,"out_of_network":[
+    {
+      "name": "EAPG level 2 procedure 1",
+      "billing_code_type": "EAPG",
+      "billing_code": "EAPG200",
+      "billing_code_type_version": "2023",
+      "description": "Enhanced ambulatory patient group level 2 ancillary procedure",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "90-9462979",
+            "business_name": "Statewide Provider Network"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "payments": [
+            {
+              "allowed_amount": 46.65,
+              "providers": [
+                {
+                  "npi": [
+                    1328580695
+                  ],
+                  "billed_charge": 2258.68
+                },
+                {
+                  "npi": [
+                    1930400849
+                  ],
+                  "billed_charge": 192.65
+                }
+              ]
+            }
+          ],
+          "service_code": [
+            "23"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Office visit est patient 2",
+      "billing_code_type": "CPT",
+      "billing_code": "99213",
+      "billing_code_type_version": "2023",
+      "description": "Office or outpatient visit established patient, moderate complexity",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "31-5023441",
+            "business_name": "Academic Medical Center Group"
+          },
+          "billing_class": "institutional",
+          "setting": "inpatient",
+          "payments": [
+            {
+              "allowed_amount": 1633.87,
+              "providers": [
+                {
+                  "npi": [
+                    1371192806
+                  ],
+                  "billed_charge": 3326.2
+                },
+                {
+                  "npi": [
+                    1145822945
+                  ],
+                  "billed_charge": 789.9
+                },
+                {
+                  "npi": [
+                    1660071257
+                  ],
+                  "billed_charge": 857.63
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Inj perflutren lip micros 3",
+      "billing_code_type": "CPT",
+      "billing_code": "Q9957",
+      "billing_code_type_version": "2023",
+      "description": "Injection perflutren lipid microspheres per ml",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "47-5219581",
+            "business_name": "Advanced Medical Group"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "payments": [
+            {
+              "allowed_amount": 1322.02,
+              "providers": [
+                {
+                  "npi": [
+                    1157004476
+                  ],
+                  "billed_charge": 5434.88
+                },
+                {
+                  "npi": [
+                    1199222356
+                  ],
+                  "billed_charge": 1157.56
+                },
+                {
+                  "npi": [
+                    1366319813
+                  ],
+                  "billed_charge": 7862.89
+                }
+              ]
+            }
+          ],
+          "service_code": [
+            "23"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heart failure w MCC 4",
+      "billing_code_type": "MS-DRG",
+      "billing_code": "291",
+      "billing_code_type_version": "2023",
+      "description": "Heart failure and shock with MCC",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "98-2036722",
+            "business_name": "Specialty Health Group"
+          },
+          "billing_class": "institutional",
+          "setting": "outpatient",
+          "payments": [
+            {
+              "allowed_amount": 1652.45,
+              "providers": [
+                {
+                  "npi": [
+                    1054172250
+                  ],
+                  "billed_charge": 872.31
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Upper GI endoscopy biopsy 5",
+      "billing_code_type": "CPT",
+      "billing_code": "43239",
+      "billing_code_type_version": "2023",
+      "description": "Esophagogastroduodenoscopy with biopsy single or multiple",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "78-5800332",
+            "business_name": "Regional Medical Associates"
+          },
+          "billing_class": "professional",
+          "setting": "inpatient",
+          "payments": [
+            {
+              "allowed_amount": 617.06,
+              "providers": [
+                {
+                  "npi": [
+                    1623176430
+                  ],
+                  "billed_charge": 1635.08
+                },
+                {
+                  "npi": [
+                    1624996484
+                  ],
+                  "billed_charge": 6273.28
+                },
+                {
+                  "npi": [
+                    1283019665
+                  ],
+                  "billed_charge": 7759.07
+                }
+              ]
+            }
+          ],
+          "service_code": [
+            "41"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HIPPS HHA clinical grp 6",
+      "billing_code_type": "HIPPS",
+      "billing_code": "CCC03",
+      "billing_code_type_version": "2023",
+      "description": "HIPPS home health agency clinical grouping case mix",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "38-8945219",
+            "business_name": "Valley Medical Group"
+          },
+          "billing_class": "institutional",
+          "setting": "outpatient",
+          "payments": [
+            {
+              "allowed_amount": 475.53,
+              "providers": [
+                {
+                  "npi": [
+                    1319671246
+                  ],
+                  "billed_charge": 3582.6
+                },
+                {
+                  "npi": [
+                    1512917532
+                  ],
+                  "billed_charge": 4011.68
+                },
+                {
+                  "npi": [
+                    1292052672
+                  ],
+                  "billed_charge": 5805.38
+                }
+              ],
+              "billing_code_modifier": [
+                "25"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]}

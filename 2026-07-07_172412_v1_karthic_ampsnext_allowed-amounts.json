@@ -1,0 +1,47 @@
+{
+  "reporting_entity_name": "AMPS",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "AMPSNEXT",
+  "plan_id_type": "ein",
+  "plan_id": "5118442552",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "MRF",
+  "issuer_name": "karthic",
+  "last_updated_on": "2026-07-07",
+  "version": "2.0.0",
+  "out_of_network": [
+    {
+      "name": "Office visit, est patient",
+      "billing_code_type": "CPT",
+      "billing_code": "99213",
+      "billing_code_type_version": "2023",
+      "description": "Office or outpatient visit for established patient",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "34-1893439"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "payments": [
+            {
+              "allowed_amount": 150,
+              "providers": [
+                {
+                  "npi": [
+                    1366433195
+                  ],
+                  "billed_charge": 275
+                }
+              ]
+            }
+          ],
+          "service_code": [
+            "11"
+          ]
+        }
+      ]
+    }
+  ]
+}
