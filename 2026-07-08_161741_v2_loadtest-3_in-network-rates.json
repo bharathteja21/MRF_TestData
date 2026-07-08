@@ -1,0 +1,181 @@
+{
+  "reporting_entity_name": "Health",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "HEALTHNEXT",
+  "plan_id_type": "ein",
+  "plan_id": "9275279885",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "MRF",
+  "issuer_name": "bharath",
+  "last_updated_on": "2025-10-30",
+  "version": "2.0.0",
+  "provider_references": [
+    {
+      "provider_group_id": 1,
+      "network_name": [
+        "Network Gold"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1217291495
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "44-8959875",
+            "business_name": "Academic Medical Center Group"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 2,
+      "network_name": [
+        "Network Gold"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1084583333
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "18-4472155",
+            "business_name": "Advanced Medical Group"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 3,
+      "network_name": [
+        "Network Standard"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1553335910
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "32-2955827",
+            "business_name": "Specialty Health Group"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 4,
+      "network_name": [
+        "Network A"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1980468072
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "69-1640881",
+            "business_name": "Community Health Network"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 5,
+      "network_name": [
+        "Network B"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1228662643
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "84-8984661",
+            "business_name": "Metropolitan Providers"
+          }
+        }
+      ]
+    }
+  ]
+  ,"in_network":[
+    {
+      "negotiation_arrangement": "capitation",
+      "name": "Knee replacement 1",
+      "billing_code_type": "MS-DRG",
+      "billing_code_type_version": "2023",
+      "billing_code": "302",
+      "description": "Knee joint replacement without MCC",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            2
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "derived",
+              "negotiated_rate": 2081.06,
+              "expiration_date": "2025-03-28",
+              "billing_class": "institutional",
+              "setting": "inpatient"
+            }
+          ]
+        }
+      ],
+      "severity_of_illness": "Without CC or MCC"
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "name": "Comprehensive oral eval 2",
+      "billing_code_type": "CDT",
+      "billing_code_type_version": "2023",
+      "billing_code": "D0150",
+      "description": "Comprehensive oral evaluation new or established patient CDT",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            1
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "derived",
+              "negotiated_rate": 19878.6,
+              "expiration_date": "2025-02-07",
+              "billing_class": "institutional",
+              "setting": "inpatient"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "name": "Ultrasound abdomen 3",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "76700",
+      "description": "Ultrasonography abdomen complete real time",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            5
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "percentage",
+              "negotiated_rate": 10376.8,
+              "expiration_date": "2025-02-05",
+              "billing_class": "both",
+              "setting": "outpatient",
+              "service_code": [
+                "51"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]}

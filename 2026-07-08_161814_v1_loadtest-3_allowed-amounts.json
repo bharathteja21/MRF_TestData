@@ -1,0 +1,112 @@
+{
+  "reporting_entity_name": "INSU",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "INSUNEXT",
+  "plan_id_type": "ein",
+  "plan_id": "4461399586",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "MRF",
+  "issuer_name": "bharath",
+  "last_updated_on": "2026-07-08",
+  "version": "2.0.0"
+  ,"out_of_network":[
+    {
+      "name": "APS-DRG Pediatric medical 1",
+      "billing_code_type": "APS-DRG",
+      "billing_code": "APS100",
+      "billing_code_type_version": "2023",
+      "description": "All-patient severity DRG pediatric medical case",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "63-5193266",
+            "business_name": "Community Health Network"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "payments": [
+            {
+              "allowed_amount": 2438.93,
+              "providers": [
+                {
+                  "npi": [
+                    1703265275
+                  ],
+                  "billed_charge": 6551
+                }
+              ]
+            }
+          ],
+          "service_code": [
+            "32"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Subsequent hospital care 2",
+      "billing_code_type": "CPT",
+      "billing_code": "99232",
+      "billing_code_type_version": "2023",
+      "description": "Subsequent hospital care moderate complexity per day",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "77-8963227",
+            "business_name": "Community Health Network"
+          },
+          "billing_class": "institutional",
+          "setting": "inpatient",
+          "payments": [
+            {
+              "allowed_amount": 1762.21,
+              "providers": [
+                {
+                  "npi": [
+                    1718921607
+                  ],
+                  "billed_charge": 6144.45
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Total knee arthroplasty 3",
+      "billing_code_type": "CPT",
+      "billing_code": "27447",
+      "billing_code_type_version": "2023",
+      "description": "Arthroplasty knee condyle and plateau medial and lateral compartments",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "29-9286764",
+            "business_name": "Valley Medical Group"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "payments": [
+            {
+              "allowed_amount": 818.38,
+              "providers": [
+                {
+                  "npi": [
+                    1067660082
+                  ],
+                  "billed_charge": 7262.49
+                }
+              ]
+            }
+          ],
+          "service_code": [
+            "23"
+          ]
+        }
+      ]
+    }
+  ]}
