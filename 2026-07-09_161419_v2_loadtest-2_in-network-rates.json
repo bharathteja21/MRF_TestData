@@ -1,0 +1,157 @@
+{
+  "reporting_entity_name": "ROMI",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "ROMIPLAN",
+  "plan_id_type": "ein",
+  "plan_id": "7457952898",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "MRF",
+  "issuer_name": "Bharath",
+  "last_updated_on": "2025-10-30",
+  "version": "2.0.0",
+  "provider_references": [
+    {
+      "provider_group_id": 1,
+      "network_name": [
+        "Network A"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1494626419
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "51-5732100",
+            "business_name": "Regional Medical Associates"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 2,
+      "network_name": [
+        "Network Standard"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1639481565
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "55-5320608",
+            "business_name": "Integrated Care Solutions"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 3,
+      "network_name": [
+        "Network Select"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1460152670
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "58-4860368",
+            "business_name": "Primary Care Partners"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 4,
+      "network_name": [
+        "Network A"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1178011371
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "59-2413357",
+            "business_name": "Advanced Medical Group"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 5,
+      "network_name": [
+        "Network Alpha"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1869720254
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "52-7324943",
+            "business_name": "Regional Medical Associates"
+          }
+        }
+      ]
+    }
+  ]
+  ,"in_network":[
+    {
+      "negotiation_arrangement": "bundle",
+      "name": "Room and board medical surgical 1",
+      "billing_code_type": "RC",
+      "billing_code_type_version": "2023",
+      "billing_code": "0120",
+      "description": "Room and board medical surgical two bed semi-private",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            4
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "negotiated",
+              "negotiated_rate": 19941.54,
+              "expiration_date": "2027-09-08",
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "service_code": [
+                "41"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "bundle",
+      "name": "Diabetes w MCC 2",
+      "billing_code_type": "MS-DRG",
+      "billing_code_type_version": "2023",
+      "billing_code": "638",
+      "description": "Diabetes with MCC",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            5
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "fee schedule",
+              "negotiated_rate": 10547.8,
+              "expiration_date": "2026-12-03",
+              "billing_class": "institutional",
+              "setting": "inpatient"
+            }
+          ]
+        }
+      ],
+      "severity_of_illness": "Major Complications or Comorbidities"
+    }
+  ]}
