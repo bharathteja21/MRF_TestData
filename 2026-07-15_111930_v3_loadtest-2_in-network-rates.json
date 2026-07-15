@@ -1,0 +1,160 @@
+{
+  "reporting_entity_name": "ROMI",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "ROMIPLAN",
+  "plan_id_type": "ein",
+  "plan_id": "3911611968",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "MRF",
+  "issuer_name": "Bharath",
+  "last_updated_on": "2025-10-30",
+  "version": "2.0.0",
+  "provider_references": [
+    {
+      "provider_group_id": 1,
+      "network_name": [
+        "Network Beta"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1783062331
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "20-4924139",
+            "business_name": "Metropolitan Providers"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 2,
+      "network_name": [
+        "HMO Network B"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1303499874
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "28-6795088",
+            "business_name": "Provider Group One"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 3,
+      "network_name": [
+        "HMO Network B"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1060904875
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "82-3342681",
+            "business_name": "Academic Medical Center Group"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 4,
+      "network_name": [
+        "Network Beta"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1452363733
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "16-2495706",
+            "business_name": "Academic Medical Center Group"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 5,
+      "network_name": [
+        "Network Gold"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1362738035
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "34-3666768",
+            "business_name": "Integrated Care Solutions"
+          }
+        }
+      ]
+    }
+  ]
+  ,"in_network":[
+    {
+      "negotiation_arrangement": "capitation",
+      "name": "X-ray chest 2 views 1",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "71046",
+      "description": "Radiologic examination chest 2 views",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            3
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "fee schedule",
+              "negotiated_rate": 9902.44,
+              "expiration_date": "2026-08-18",
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "service_code": [
+                "11",
+                "22"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "bundle",
+      "name": "Level 2 imaging 2",
+      "billing_code_type": "APC",
+      "billing_code_type_version": "2023",
+      "billing_code": "5302",
+      "description": "Level 2 diagnostic and screening radiology APC",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            2
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "percentage",
+              "negotiated_rate": 24654.37,
+              "expiration_date": "2026-03-14",
+              "billing_class": "institutional",
+              "setting": "inpatient",
+              "billing_code_modifier": [
+                "76"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]}
