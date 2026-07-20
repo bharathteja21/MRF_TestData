@@ -1,0 +1,30 @@
+{
+  "reporting_entity_name": "National Rental Providers Inc.",
+  "reporting_entity_type": "issuer",
+  "version": "2.0.0",
+  "last_updated_on": "2026-04-12",
+  "reporting_structure": [
+    {
+      "reporting_plans": [
+        {
+          "plan_name": "HealthCare Basic Plan12",
+          "plan_id_type": "ein",
+          "plan_id": "1403621724",
+          "plan_market_type": "individual",
+          "issuer_name": "HealthCare Issuer",
+          "plan_sponsor_name": "HealthCare Inc."
+        }
+      ],
+      "in_network_files": [
+        {
+          "description": "In-network negotiated rates for HealthCare Basic Plan",
+          "location": "https://raw.githubusercontent.com/karthic117/MRF_testdata/refs/heads/main/Innetwork_sample_upgraded.json"
+        }
+      ],
+      "allowed_amount_file": {
+        "description": "Allowed amounts for out-of-network services",
+        "location": "https://raw.githubusercontent.com/bharathteja21/MRF_TestData/refs/heads/main/2026-07-20_061606_v1_karthic_ampsnext_allowed-amounts.json"
+      }
+    }
+  ]
+}
