@@ -1,0 +1,183 @@
+{
+  "reporting_entity_name": "AMPSI",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "AMPSNEXT",
+  "plan_id_type": "ein",
+  "plan_id": "7855893552",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "MRF",
+  "issuer_name": "Ramki",
+  "last_updated_on": "2025-10-30",
+  "version": "2.0.0",
+  "provider_references": [
+    {
+      "provider_group_id": 1,
+      "network_name": [
+        "PPO Network A"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1382171112
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "81-9988123",
+            "business_name": "Primary Care Partners"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 2,
+      "network_name": [
+        "PPO Network A"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1876983565
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "22-6566135",
+            "business_name": "Coastal Health Partners"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 3,
+      "network_name": [
+        "HMO Network B"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1250696900
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "27-7833504",
+            "business_name": "Primary Care Partners"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 4,
+      "network_name": [
+        "HMO Network B"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1965911434
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "58-1010034",
+            "business_name": "Statewide Provider Network"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 5,
+      "network_name": [
+        "Network Select"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1945733736
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "92-8114126",
+            "business_name": "Integrated Care Solutions"
+          }
+        }
+      ]
+    }
+  ]
+  ,"in_network":[
+    {
+      "negotiation_arrangement": "ffs",
+      "name": "Level 1 minor procedure 1",
+      "billing_code_type": "APC",
+      "billing_code_type_version": "2023",
+      "billing_code": "5161",
+      "description": "Level 1 minor procedure APC surgical",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            2
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "negotiated",
+              "negotiated_rate": 10992.05,
+              "expiration_date": "2026-03-06",
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "service_code": [
+                "21"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "bundle",
+      "name": "Inj perflutren lip micros 2",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "Q9957",
+      "description": "Injection perflutren lipid microspheres per ml",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            4
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "per diem",
+              "negotiated_rate": 14004.95,
+              "expiration_date": "2026-10-12",
+              "billing_class": "institutional",
+              "setting": "inpatient"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "bundle",
+      "name": "Ambulance BLS emergency 3",
+      "billing_code_type": "HCPCS",
+      "billing_code_type_version": "2023",
+      "billing_code": "A0429",
+      "description": "Ambulance service basic life support emergency transport",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            2
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "fee schedule",
+              "negotiated_rate": 12562.41,
+              "expiration_date": "2026-12-18",
+              "billing_class": "both",
+              "setting": "outpatient",
+              "service_code": [
+                "21"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]}

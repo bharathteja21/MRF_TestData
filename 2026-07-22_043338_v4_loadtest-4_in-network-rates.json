@@ -1,0 +1,216 @@
+{
+  "reporting_entity_name": "AMPSI",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "AMPSNEXT",
+  "plan_id_type": "ein",
+  "plan_id": "5553588477",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "MRF",
+  "issuer_name": "Ramki",
+  "last_updated_on": "2025-10-30",
+  "version": "2.0.0",
+  "provider_references": [
+    {
+      "provider_group_id": 1,
+      "network_name": [
+        "Network C"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1147331142
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "26-7272810",
+            "business_name": "Community Health Network"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 2,
+      "network_name": [
+        "Network Plus"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1632946218
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "94-3211474",
+            "business_name": "Coastal Health Partners"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 3,
+      "network_name": [
+        "Network Alpha"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1998831199
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "87-6433305",
+            "business_name": "Statewide Provider Network"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 4,
+      "network_name": [
+        "Network B"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1766303828
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "12-4432990",
+            "business_name": "Regional Medical Associates"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 5,
+      "network_name": [
+        "Network Standard"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1443577217
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "97-5110075",
+            "business_name": "Integrated Care Solutions"
+          }
+        }
+      ]
+    }
+  ]
+  ,"in_network":[
+    {
+      "negotiation_arrangement": "ffs",
+      "name": "X-ray chest 2 views 1",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "71046",
+      "description": "Radiologic examination chest 2 views",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            2
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "per diem",
+              "negotiated_rate": 200.51,
+              "expiration_date": "2025-03-04",
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "service_code": [
+                "11",
+                "22"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "capitation",
+      "name": "APR-DRG Moderate severity 2",
+      "billing_code_type": "APR-DRG",
+      "billing_code_type_version": "2023",
+      "billing_code": "APR301",
+      "description": "All-patient refined DRG moderate severity subclass",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            5
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "negotiated",
+              "negotiated_rate": 11881.3,
+              "expiration_date": "2025-03-21",
+              "billing_class": "institutional",
+              "setting": "inpatient"
+            }
+          ]
+        }
+      ],
+      "severity_of_illness": "Moderate Complications"
+    },
+    {
+      "negotiation_arrangement": "bundle",
+      "name": "HIPPS LTCH LTC-DRG 3",
+      "billing_code_type": "HIPPS",
+      "billing_code_type_version": "2023",
+      "billing_code": "EEE05",
+      "description": "HIPPS long term care hospital LTC-DRG classification",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            2
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "percentage",
+              "negotiated_rate": 16512.41,
+              "expiration_date": "2027-09-22",
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "service_code": [
+                "31"
+              ],
+              "billing_code_modifier": [
+                "KX",
+                "GZ"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "bundle",
+      "name": "Lyrica 75mg 60ct 4",
+      "billing_code_type": "NDC",
+      "billing_code_type_version": "2023",
+      "billing_code": "00071015423",
+      "description": "Pregabalin 75mg oral capsule 60 count NDC",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            2
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "percentage",
+              "negotiated_rate": 13675.16,
+              "expiration_date": "2027-04-02",
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "service_code": [
+                "CSTM-00"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]}

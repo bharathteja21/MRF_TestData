@@ -1,0 +1,162 @@
+{
+  "reporting_entity_name": "AMPSI",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "AMPSNEXT",
+  "plan_id_type": "ein",
+  "plan_id": "2135918763",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "MRF",
+  "issuer_name": "Ramki",
+  "last_updated_on": "2025-10-30",
+  "version": "2.0.0",
+  "provider_references": [
+    {
+      "provider_group_id": 1,
+      "network_name": [
+        "HMO Network B"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1917548976
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "48-8675101",
+            "business_name": "Primary Care Partners"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 2,
+      "network_name": [
+        "Network Gold"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1909846504
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "86-2630110",
+            "business_name": "Metropolitan Providers"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 3,
+      "network_name": [
+        "Network Select"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1674974991
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "75-6717574",
+            "business_name": "Integrated Care Solutions"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 4,
+      "network_name": [
+        "Network Alpha"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1434204097
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "86-6243245",
+            "business_name": "Valley Medical Group"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 5,
+      "network_name": [
+        "PPO Network A"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1466056355
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "77-1765751",
+            "business_name": "Valley Medical Group"
+          }
+        }
+      ]
+    }
+  ]
+  ,"in_network":[
+    {
+      "negotiation_arrangement": "bundle",
+      "name": "EAPG level 1 visit 1",
+      "billing_code_type": "EAPG",
+      "billing_code_type_version": "2023",
+      "billing_code": "EAPG100",
+      "description": "Enhanced ambulatory patient group level 1 clinic visit",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            3
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "fee schedule",
+              "negotiated_rate": 1996.75,
+              "expiration_date": "2026-08-20",
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "service_code": [
+                "22"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "capitation",
+      "name": "Colonoscopy diagnostic 2",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "45378",
+      "description": "Colonoscopy flexible proximal to splenic flexure diagnostic",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            4
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "derived",
+              "negotiated_rate": 10329.02,
+              "expiration_date": "2026-04-23",
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "service_code": [
+                "12"
+              ],
+              "billing_code_modifier": [
+                "KX"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]}

@@ -1,0 +1,162 @@
+{
+  "reporting_entity_name": "AMPSI",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "AMPSNEXT",
+  "plan_id_type": "ein",
+  "plan_id": "8685645094",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "MRF",
+  "issuer_name": "Ramki",
+  "last_updated_on": "2025-10-30",
+  "version": "2.0.0",
+  "provider_references": [
+    {
+      "provider_group_id": 1,
+      "network_name": [
+        "Network B"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1300630971
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "29-5976547",
+            "business_name": "Advanced Medical Group"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 2,
+      "network_name": [
+        "Network Premier"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1567400168
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "77-9561915",
+            "business_name": "Primary Care Partners"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 3,
+      "network_name": [
+        "Network Alpha"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1699947940
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "92-5915121",
+            "business_name": "Community Health Network"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 4,
+      "network_name": [
+        "Network Standard"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1475336305
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "40-9926876",
+            "business_name": "Valley Medical Group"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 5,
+      "network_name": [
+        "Network Standard"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1342220783
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "46-6869540",
+            "business_name": "Statewide Provider Network"
+          }
+        }
+      ]
+    }
+  ]
+  ,"in_network":[
+    {
+      "negotiation_arrangement": "bundle",
+      "name": "Vaccine admin IM 1",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "90471",
+      "description": "Immunization administration intramuscular",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            4
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "derived",
+              "negotiated_rate": 9537.87,
+              "expiration_date": "2026-06-22",
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "service_code": [
+                "11",
+                "21",
+                "22"
+              ],
+              "billing_code_modifier": [
+                "AT",
+                "GZ"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "capitation",
+      "name": "Wheelchair accessory 2",
+      "billing_code_type": "HCPCS",
+      "billing_code_type_version": "2023",
+      "billing_code": "E1234",
+      "description": "Wheelchair component or accessory not otherwise specified",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            5
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "negotiated",
+              "negotiated_rate": 4141.75,
+              "expiration_date": "2026-04-18",
+              "billing_class": "institutional",
+              "setting": "inpatient"
+            }
+          ]
+        }
+      ]
+    }
+  ]}
