@@ -1,0 +1,157 @@
+{
+  "reporting_entity_name": "SUMP",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "SUMPNEXT",
+  "plan_id_type": "ein",
+  "plan_id": "6503201149",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "MRF",
+  "issuer_name": "SOMESH",
+  "last_updated_on": "2025-10-31",
+  "version": "2.0.0",
+  "provider_references": [
+    {
+      "provider_group_id": 1,
+      "network_name": [
+        "Network C"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1787262749
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "91-3402771",
+            "business_name": "Community Health Network"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 2,
+      "network_name": [
+        "PPO Network A"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1634137523
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "87-5420082",
+            "business_name": "Statewide Provider Network"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 3,
+      "network_name": [
+        "Network Standard"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1264480004
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "98-5816980",
+            "business_name": "Integrated Care Solutions"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 4,
+      "network_name": [
+        "Network A"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1097962351
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "62-8000568",
+            "business_name": "Academic Medical Center Group"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 5,
+      "network_name": [
+        "Network Plus"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1782086870
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "78-6578013",
+            "business_name": "Advanced Medical Group"
+          }
+        }
+      ]
+    }
+  ]
+  ,"in_network":[
+    {
+      "negotiation_arrangement": "ffs",
+      "name": "Level 1 imaging 1",
+      "billing_code_type": "APC",
+      "billing_code_type_version": "2023",
+      "billing_code": "5301",
+      "description": "Level 1 diagnostic and screening radiology APC",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            5
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "percentage",
+              "negotiated_rate": 4622.6,
+              "expiration_date": "2026-06-03",
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "service_code": [
+                "71"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "capitation",
+      "name": "S-DRG Major severity 2",
+      "billing_code_type": "S-DRG",
+      "billing_code_type_version": "2023",
+      "billing_code": "S103",
+      "description": "Severity-adjusted DRG major severity of illness subclass",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            5
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "negotiated",
+              "negotiated_rate": 9069.66,
+              "expiration_date": "2026-03-20",
+              "billing_class": "institutional",
+              "setting": "inpatient"
+            }
+          ]
+        }
+      ],
+      "severity_of_illness": "Major Complications or Comorbidities"
+    }
+  ]}

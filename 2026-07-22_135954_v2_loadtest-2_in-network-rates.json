@@ -1,0 +1,156 @@
+{
+  "reporting_entity_name": "SUMP",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "SUMPNEXT",
+  "plan_id_type": "ein",
+  "plan_id": "2806848120",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "MRF",
+  "issuer_name": "SOMESH",
+  "last_updated_on": "2025-10-31",
+  "version": "2.0.0",
+  "provider_references": [
+    {
+      "provider_group_id": 1,
+      "network_name": [
+        "PPO Network A"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1756695607
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "13-2493002",
+            "business_name": "Coastal Health Partners"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 2,
+      "network_name": [
+        "Network Premier"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1161958667
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "53-1632063",
+            "business_name": "Community Health Network"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 3,
+      "network_name": [
+        "PPO Network A"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1553822760
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "26-3876028",
+            "business_name": "Academic Medical Center Group"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 4,
+      "network_name": [
+        "Network Standard"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1227172791
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "69-8158771",
+            "business_name": "Statewide Provider Network"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 5,
+      "network_name": [
+        "Network Select"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1206988063
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "56-6582763",
+            "business_name": "Regional Medical Associates"
+          }
+        }
+      ]
+    }
+  ]
+  ,"in_network":[
+    {
+      "negotiation_arrangement": "capitation",
+      "name": "Vaccine admin IM 1",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "90471",
+      "description": "Immunization administration intramuscular",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            5
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "derived",
+              "negotiated_rate": 1160.45,
+              "expiration_date": "2025-07-20",
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "service_code": [
+                "CSTM-00"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "capitation",
+      "name": "ECG with interpretation 2",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "93000",
+      "description": "Routine electrocardiogram with at least 12 leads with interpretation and report",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            4
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "per diem",
+              "negotiated_rate": 4910.92,
+              "expiration_date": "2025-12-18",
+              "billing_class": "institutional",
+              "setting": "inpatient"
+            }
+          ]
+        }
+      ]
+    }
+  ]}
