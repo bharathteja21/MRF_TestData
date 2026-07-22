@@ -1,0 +1,118 @@
+{
+  "reporting_entity_name": "AMPSY",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "AMPSNEXTY",
+  "plan_id_type": "ein",
+  "plan_id": "7726125661",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "MRF",
+  "issuer_name": "youber",
+  "last_updated_on": "2026-07-22",
+  "version": "2.0.0"
+  ,"out_of_network":[
+    {
+      "name": "Total knee arthroplasty 1",
+      "billing_code_type": "CPT",
+      "billing_code": "27447",
+      "billing_code_type_version": "2023",
+      "description": "Arthroplasty knee condyle and plateau medial and lateral compartments",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "53-8127891",
+            "business_name": "Regional Medical Associates"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "payments": [
+            {
+              "allowed_amount": 2095.8,
+              "providers": [
+                {
+                  "npi": [
+                    1416476555
+                  ],
+                  "billed_charge": 7486
+                }
+              ]
+            }
+          ],
+          "service_code": [
+            "23"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "X-ray chest 2 views 2",
+      "billing_code_type": "CPT",
+      "billing_code": "71046",
+      "billing_code_type_version": "2023",
+      "description": "Radiologic examination chest 2 views",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "43-1861393",
+            "business_name": "Integrated Care Solutions"
+          },
+          "billing_class": "institutional",
+          "setting": "inpatient",
+          "payments": [
+            {
+              "allowed_amount": 478.76,
+              "providers": [
+                {
+                  "npi": [
+                    1842059317
+                  ],
+                  "billed_charge": 4483.92
+                }
+              ],
+              "billing_code_modifier": [
+                "GX"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ECG with interpretation 3",
+      "billing_code_type": "CPT",
+      "billing_code": "93000",
+      "billing_code_type_version": "2023",
+      "description": "Routine electrocardiogram with at least 12 leads with interpretation and report",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "56-9392658",
+            "business_name": "Academic Medical Center Group"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "payments": [
+            {
+              "allowed_amount": 2477.38,
+              "providers": [
+                {
+                  "npi": [
+                    1310588220
+                  ],
+                  "billed_charge": 5022.5
+                }
+              ],
+              "billing_code_modifier": [
+                "25"
+              ]
+            }
+          ],
+          "service_code": [
+            "11"
+          ]
+        }
+      ]
+    }
+  ]}

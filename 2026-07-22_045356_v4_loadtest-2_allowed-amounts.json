@@ -1,0 +1,81 @@
+{
+  "reporting_entity_name": "AMPSY",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "AMPSNEXTY",
+  "plan_id_type": "ein",
+  "plan_id": "1731303264",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "MRF",
+  "issuer_name": "youber",
+  "last_updated_on": "2026-07-22",
+  "version": "2.0.0"
+  ,"out_of_network":[
+    {
+      "name": "S-DRG Extreme severity 1",
+      "billing_code_type": "S-DRG",
+      "billing_code": "S104",
+      "billing_code_type_version": "2023",
+      "description": "Severity-adjusted DRG extreme severity of illness subclass",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "76-9860116",
+            "business_name": "Advanced Medical Group"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "payments": [
+            {
+              "allowed_amount": 4400.06,
+              "providers": [
+                {
+                  "npi": [
+                    1548889399
+                  ],
+                  "billed_charge": 2232.35
+                }
+              ]
+            }
+          ],
+          "service_code": [
+            "31"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crutches underarm each 2",
+      "billing_code_type": "HCPCS",
+      "billing_code": "A4628",
+      "billing_code_type_version": "2023",
+      "description": "Crutches underarm any type each",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "63-1470188",
+            "business_name": "Metropolitan Providers"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "payments": [
+            {
+              "allowed_amount": 4908.44,
+              "providers": [
+                {
+                  "npi": [
+                    1017205858
+                  ],
+                  "billed_charge": 6639
+                }
+              ]
+            }
+          ],
+          "service_code": [
+            "12"
+          ]
+        }
+      ]
+    }
+  ]}

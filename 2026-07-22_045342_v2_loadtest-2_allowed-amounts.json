@@ -1,0 +1,78 @@
+{
+  "reporting_entity_name": "AMPSY",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "AMPSNEXTY",
+  "plan_id_type": "ein",
+  "plan_id": "7553494372",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "MRF",
+  "issuer_name": "youber",
+  "last_updated_on": "2026-07-22",
+  "version": "2.0.0"
+  ,"out_of_network":[
+    {
+      "name": "Compression garment arm 1",
+      "billing_code_type": "HCPCS",
+      "billing_code": "A6531",
+      "billing_code_type_version": "2023",
+      "description": "Gradient compression garment sleeve and glottete",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "38-5889501",
+            "business_name": "Provider Group One"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "payments": [
+            {
+              "allowed_amount": 4995.55,
+              "providers": [
+                {
+                  "npi": [
+                    1667118557
+                  ],
+                  "billed_charge": 2252.71
+                }
+              ]
+            }
+          ],
+          "service_code": [
+            "12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Methylprednisolone 80mg 2",
+      "billing_code_type": "HCPCS",
+      "billing_code": "J1040",
+      "billing_code_type_version": "2023",
+      "description": "Injection methylprednisolone acetate 80 mg",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "87-5864091",
+            "business_name": "Advanced Medical Group"
+          },
+          "billing_class": "institutional",
+          "setting": "inpatient",
+          "payments": [
+            {
+              "allowed_amount": 4600.65,
+              "providers": [
+                {
+                  "npi": [
+                    1375516938
+                  ],
+                  "billed_charge": 5077.26
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]}
