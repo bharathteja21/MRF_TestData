@@ -1,0 +1,115 @@
+{
+  "reporting_entity_name": "POLI",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "POLINEXT",
+  "plan_id_type": "ein",
+  "plan_id": "1189606333",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "MRF",
+  "issuer_name": "soumya",
+  "last_updated_on": "2026-07-22",
+  "version": "2.0.0"
+  ,"out_of_network":[
+    {
+      "name": "CT head without contrast 1",
+      "billing_code_type": "CPT",
+      "billing_code": "70450",
+      "billing_code_type_version": "2023",
+      "description": "Computed tomography head or brain without contrast material",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "95-9363252",
+            "business_name": "Integrated Care Solutions"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "payments": [
+            {
+              "allowed_amount": 2570.11,
+              "providers": [
+                {
+                  "npi": [
+                    1948356336
+                  ],
+                  "billed_charge": 7684.49
+                }
+              ],
+              "billing_code_modifier": [
+                "59"
+              ]
+            }
+          ],
+          "service_code": [
+            "11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CT head without contrast 2",
+      "billing_code_type": "CPT",
+      "billing_code": "70450",
+      "billing_code_type_version": "2023",
+      "description": "Computed tomography head or brain without contrast material",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "75-7217841",
+            "business_name": "Specialty Health Group"
+          },
+          "billing_class": "institutional",
+          "setting": "inpatient",
+          "payments": [
+            {
+              "allowed_amount": 4972.27,
+              "providers": [
+                {
+                  "npi": [
+                    1522998870
+                  ],
+                  "billed_charge": 3307.1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Upper GI endoscopy biopsy 3",
+      "billing_code_type": "CPT",
+      "billing_code": "43239",
+      "billing_code_type_version": "2023",
+      "description": "Esophagogastroduodenoscopy with biopsy single or multiple",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "62-1143451",
+            "business_name": "Academic Medical Center Group"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "payments": [
+            {
+              "allowed_amount": 2185.98,
+              "providers": [
+                {
+                  "npi": [
+                    1868749878
+                  ],
+                  "billed_charge": 2341.73
+                }
+              ]
+            }
+          ],
+          "service_code": [
+            "51"
+          ]
+        }
+      ]
+    }
+  ]}

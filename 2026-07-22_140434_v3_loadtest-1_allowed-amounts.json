@@ -1,0 +1,47 @@
+{
+  "reporting_entity_name": "POLI",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "POLINEXT",
+  "plan_id_type": "ein",
+  "plan_id": "6348638453",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "MRF",
+  "issuer_name": "soumya",
+  "last_updated_on": "2026-07-22",
+  "version": "2.0.0"
+  ,"out_of_network":[
+    {
+      "name": "Level 2 excision biopsy 1",
+      "billing_code_type": "APC",
+      "billing_code": "5072",
+      "billing_code_type_version": "2023",
+      "description": "Level 2 excision biopsy and incision and drainage APC",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "44-1716131",
+            "business_name": "Advanced Medical Group"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "payments": [
+            {
+              "allowed_amount": 58.08,
+              "providers": [
+                {
+                  "npi": [
+                    1456132468
+                  ],
+                  "billed_charge": 5611.22
+                }
+              ]
+            }
+          ],
+          "service_code": [
+            "81"
+          ]
+        }
+      ]
+    }
+  ]}
