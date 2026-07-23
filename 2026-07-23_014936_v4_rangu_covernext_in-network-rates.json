@@ -1,0 +1,58 @@
+{
+  "reporting_entity_name": "LOSS",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "COVERNEXT",
+  "plan_id_type": "ein",
+  "plan_id": "3507207993",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "MRF",
+  "issuer_name": "Rangu",
+  "last_updated_on": "2025-11-05",
+  "version": "2.0.0",
+  "provider_references": [
+    {
+      "provider_group_id": 1,
+      "network_name": [
+        "Network A"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1366433195
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "34-1893439",
+            "business_name": "Provider Group One"
+          }
+        }
+      ]
+    }
+  ],
+  "in_network": [
+    {
+      "negotiation_arrangement": "ffs",
+      "name": "Inj perflutren lip micros,ml",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "Q9957",
+      "description": "Inj perflutren lip micros,ml",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            1
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "negotiated",
+              "negotiated_rate": 1345.5,
+              "expiration_date": "2026-12-15",
+              "billing_class": "institutional",
+              "setting": "outpatient"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
